@@ -1,0 +1,74 @@
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid-container {
+    width: 512px;
+    height: 512px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-cell {
+    border: 1px solid black;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#slider-div {
+    margin: 32px;
+    color: black;
+}
+
+#slider-label {
+    font-size: 24px;
+}
+
+#paint {
+    font-size: 24px;
+    padding: 16px;
+    margin: 24px;
+}
+
+#paint:hover {
+    background-color: red;
+}
+
+#rainbow {
+    font-size: 24px;
+    padding: 16px;
+    margin: 24px;
+}
+
+#rainbow:hover {
+    background-color: black;
+}
+
+#eraser {
+    font-size: 24px;
+    padding: 16px;
+    margin: 24px;
+}
+
+#eraser:hover {
+    background-color: orange;
+}
+
+#clear {
+    font-size: 24px;
+    padding: 16px;
+    margin: 24px;
+}
+
+#clear:hover {
+    background-color: gray;
+}
